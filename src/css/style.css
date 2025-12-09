@@ -16,37 +16,68 @@ header {
   background-color: var(--color-primary);
 }
 
-header nav {
+.img_container img {
+  height: 100%;
+}
+
+header {
   display: flex;
   align-items: center;
   height: 150px;
   justify-content: space-evenly;
 }
 
-header .img_container {
-  height: 85px;
+#menu-checkbox {
+  display: none;
+}
+
+header nav {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
 }
 
 header ul {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
 }
 
-header li {
+header nav {
+  position: absolute;
+  background: var(--color-primary);
+  top: 150px;
+  left: 0;
+  padding: 10px 20px;
+}
+
+.hamburger {
   display: inline-block;
+  height: 30px;
 }
 
-a {
-  text-decoration: none;
-  color: var(--color-text);
+.logo-mobile {
+  display: block;
+  height: 60px;
+}
+
+.logo-desktop {
+  display: none;
 }
 
 footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 0;
   background-color: var(--color-primary);
-  padding: 10px 40px;
+}
+
+footer .logo {
+  display: block;
+  height: 60px;
 }
 
 footer ul {
@@ -54,15 +85,73 @@ footer ul {
   padding: 0;
 }
 
-footer li {
+li {
   margin: 20px 0;
 }
 
-footer .img_container {
-  display: block;
-  height: 70px;
+footer nav {
+  min-width: 200px;
 }
 
-.img_container img {
-  height: 100%;
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    display: block;
+  }
+
+  header nav {
+    display: flex;
+    position: static;
+    align-items: center;
+    height: 150px;
+    justify-content: space-evenly;
+  }
+
+  .logo-desktop {
+    display: block;
+  }
+
+  header .img_container {
+    height: 85px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  header ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+  }
+
+  header li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--color-text);
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: normal;
+    background-color: var(--color-primary);
+    padding: 10px 40px;
+  }
+
+  footer .img_container {
+    display: block;
+    height: 70px;
+  }
 }
