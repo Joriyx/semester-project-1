@@ -1,5 +1,6 @@
 :root {
-  --color-primary: ;
-  --color-secondary: ;
-  --color-tertiary: ;
+  --color-primary: #e6e1d6;
+  --color-secondary: #33373e;
+  --color-text: #111214;
+  --color-card-header: #080809;
 }
