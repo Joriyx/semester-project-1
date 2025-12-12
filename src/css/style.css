@@ -14,11 +14,11 @@ body {
   background-position: bottom right;
   background-repeat: no-repeat;
   margin: 0;
-  font-family: "Sansation" sans-serif;
+  font-family: "Sansation", sans-serif;
 }
 
 header {
-  font-family: "Silkscreen" sans-serif;
+  font-family: "Silkscreen", sans-serif;
   background-color: var(--color-primary);
 }
 
@@ -46,7 +46,6 @@ header nav {
 }
 
 header ul {
-  list-style-type: none;
   padding: 0;
 }
 
@@ -87,12 +86,11 @@ footer .logo {
 }
 
 footer ul {
-  list-style-type: none;
   padding: 0;
 }
 
 footer h2 {
-  font-family: "Silkscreen" sans-serif;
+  font-family: "Silkscreen", sans-serif;
   font-style: bold;
 }
 

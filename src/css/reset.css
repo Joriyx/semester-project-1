@@ -10,3 +10,7 @@ body {
   min-height: 100dvh;
   margin: 0;
 }
+
+ul {
+  list-style-type: none;
+}
