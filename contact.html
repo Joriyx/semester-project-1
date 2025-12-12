@@ -6,6 +6,7 @@
     <meta name="description" content="" />
     <title>Community Science Museum|Home</title>
     <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/contact.css" />
   </head>
   <body>
     <header>
@@ -35,37 +36,37 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <div>
-        <img src="assets/images/contact.jpg" class="banner-img" alt="" />
-        <h1>Contact</h1>
-      </div>
-      <form method="post">
-        <label for="fname">Name</label>
-        <input
-          type="text"
-          name="fname"
-          id="fname"
-          placeholder="Your full name"
-        />
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email" placeholder="Your email" />
-        <label for="subject">Subject</label>
-        <input
-          type="text"
-          name="subject"
-          id="subject"
-          placeholder="Enter a subject"
-        />
-        <label for="massage">Message</label>
-        <input
-          type="text"
-          name="message"
-          id="message"
-          placeholder="Type your message here"
-        />
-        <input type="submit" value="Send" class="submit_cta" />
-      </form>
+    <main class="contact">
+      <h1 class="banner">Contact</h1>
+      <article class="card">
+        <h2>Contact us</h2>
+
+        <form method="post" class="card-content">
+          <label for="fname">Name</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Your full name"
+          />
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="Your email" />
+          <label for="subject">Subject</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Enter a subject"
+          />
+          <label for="massage">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Type your message here"
+          ></textarea>
+          <button type="submit" class="submit_cta">Send</button>
+        </form>
+      </article>
     </main>
     <footer>
       <nav>

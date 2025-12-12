@@ -1,0 +1,38 @@
+input,
+label,
+textarea {
+  display: block;
+  width: 100%;
+  font-family: "Sansation", sans-serif;
+  border-radius: 12px;
+}
+
+#message {
+  display: block;
+  height: 200px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  min-height: 60px;
+}
+
+input,
+textarea {
+  border: 2px solid var(--color-text);
+}
+
+.submit_cta {
+  display: block;
+  width: 120px;
+  height: 40px;
+  margin: 40px auto 0 auto;
+  border-radius: 50px;
+  font-family: "Sansation", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}

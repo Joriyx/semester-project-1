@@ -1,0 +1,61 @@
+.banner {
+  --background-image: url(../../assets/images/exhibitions.jpg);
+  --background-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  background-image: var(--background-gradient), var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 20%;
+  height: 140px;
+  text-align: center;
+  color: var(--color-primary);
+  font-family: "Saira Stencil One", sans-serif;
+  font-size: 35px;
+  line-height: 140px;
+  font-weight: normal;
+  box-shadow: 0 20px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.events .banner {
+  --background-image: url(../../assets/images/events.jpg);
+  background-position: center;
+}
+
+.visit .banner {
+  --background-image: url(../../assets/images/visit.jpg);
+  --background-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background-position: center;
+}
+
+.get-involved .banner {
+  --background-image: url(../../assets/images/get-involved.jpg);
+  --background-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background-position: center;
+}
+
+.contact .banner {
+  --background-image: url(../../assets/images/contact.jpg);
+}
+
+@media screen and (min-width: 800px) {
+  .banner {
+    height: 250px;
+    line-height: 250px;
+    font-size: 56px;
+  }
+
+  .contact .banner {
+    background-position-y: 45%;
+  }
+}
