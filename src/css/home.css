@@ -1,0 +1,43 @@
+.cover {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4) 40%,
+      rgba(0, 0, 0, 0.6) 60%
+    ),
+    url(../../assets/images/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100dvh - 150px);
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  box-shadow: 0 20px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cover h1 {
+  font-family: "Saira Stencil One", sans-serif;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+.cover p {
+  font-family: "Space Mono", sans-serif;
+  max-width: 800px;
+}
+
+p.sub-heading {
+  font-family: "Silkscreen", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 800px) {
+  .cover {
+    font-size: 24px;
+  }
+}
