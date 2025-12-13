@@ -1,0 +1,69 @@
+.maps-desktop,
+.img-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 0.3fr 0.5fr 1fr;
+    margin: 40px 0;
+  }
+
+  .maps-desktop {
+    display: block;
+    overflow: hidden;
+    grid-area: 1/2/2/3;
+  }
+
+  .maps-desktop iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  .maps-mobile,
+  .img-mobile {
+    display: none;
+  }
+
+  .img-desktop {
+    position: relative;
+    display: block;
+    grid-area: 3/2/4/3;
+  }
+
+  .card-img {
+    border-radius: 8px;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    object-position: center;
+  }
+
+  .hours {
+    grid-area: 2/2/3/3;
+  }
+
+  .admission {
+    grid-area: 2/1/3/2;
+  }
+
+  .accessibility {
+    grid-area: 4/1/5/2;
+  }
+
+  .food-and-drink {
+    grid-area: 3/1/4/2;
+  }
+
+  .shop {
+    grid-area: 4/2/5/3;
+  }
+
+  .adress {
+    align-self: center;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+}
