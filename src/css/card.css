@@ -71,8 +71,13 @@
     flex-direction: row;
   }
 
+  .card:nth-child(odd) .card-img {
+    border-radius: 8px 0 0 8px;
+  }
+
   .card-img {
     height: 100%;
     width: 400px;
+    border-radius: 0 8px 8px 0;
   }
 }
