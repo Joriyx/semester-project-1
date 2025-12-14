@@ -11,6 +11,7 @@
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
   background-color: var(--color-secondary);
   background-image: url(../../assets/background/background-animation-oval.svg);
   background-size: cover;
@@ -21,8 +22,13 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  justify-content: space-around;
   font-family: "Silkscreen", sans-serif;
   background-color: var(--color-primary);
+  text-wrap: nowrap;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -31,13 +37,6 @@ header {
 
 .img_container img {
   height: 100%;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  height: 150px;
-  justify-content: space-evenly;
 }
 
 #menu-checkbox {
@@ -76,6 +75,12 @@ header nav {
 
 .logo-desktop {
   display: none;
+  flex-shrink: 1;
+}
+
+.logo-desktop img {
+  width: 100%;
+  height: 100%;
 }
 
 footer {
@@ -146,6 +151,7 @@ a {
     display: flex;
     position: static;
     align-items: center;
+    gap: 10px;
     height: 150px;
     justify-content: space-evenly;
   }
@@ -165,6 +171,7 @@ a {
   header ul {
     display: flex;
     flex-grow: 1;
+    gap: 10px;
     justify-content: space-evenly;
   }
 
