@@ -11,6 +11,7 @@
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-color: var(--color-secondary);
   background-image: url(../../assets/background/background-animation-oval.svg);
   background-size: cover;
   background-position: bottom right;
