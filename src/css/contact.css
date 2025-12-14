@@ -45,6 +45,11 @@ textarea {
   border: none;
 }
 
+.submit_cta:hover {
+  background-color: var(--color-text);
+  color: var(--color-primary);
+}
+
 .card {
   padding: 20px;
 }
