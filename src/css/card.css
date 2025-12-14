@@ -37,7 +37,7 @@
 
 .card-text {
   font-size: 1.3em;
-  color: var(--color-text);
+  color: var(--color-primary);
 }
 
 .button-container {
@@ -70,7 +70,7 @@
 
 .card-heading {
   font-family: "Space Mono", sans-serif;
-  color: var(--color-card-header);
+  color: var(--color-primary);
 }
 
 @media screen and (min-width: 800px) {
