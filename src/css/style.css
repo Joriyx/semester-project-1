@@ -11,7 +11,7 @@
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-image: url(../../assets/background/backrgound2.png);
+  background-image: url(../../assets/background/background-animation-oval.svg);
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;

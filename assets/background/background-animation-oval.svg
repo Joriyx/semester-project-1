@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2550 3300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1.00086,-8.52713,-2.82722)">
+        <rect x="-0.593" y="-1.576" width="2555.14" height="3295.28" style="fill:rgb(51,55,62);"/>
+    </g>
+    <g transform="matrix(1.32611,1.46756,-1.2335,1.11461,1934.34,-1012.63)">
+        <ellipse cx="356.202" cy="1571.12" rx="822.868" ry="1639.34" style="fill:none;stroke:rgb(20,38,79);stroke-width:31.84px;">
+            <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 1000 1000"
+                to="360 1000 1000"
+                dur="450s"
+                repeatCount="indefinite"
+            />
+        </ellipse>
+    </g>
+    <g transform="matrix(-1.01609,0.0768965,-0.121417,-1.60437,3259.11,3300.63)">
+        <ellipse cx="356.202" cy="1571.12" rx="822.868" ry="1639.34" style="fill:none;stroke:rgb(52,94,95);stroke-width:43.19px;">
+            <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="0 1500 -1000"
+                to="360 1500 0"
+                dur="500s"
+                repeatCount="indefinite"
+            />
+        </ellipse>
+    </g>
+    <g transform="matrix(-0.288341,1.71479,-1.60479,-0.269845,4350.01,922.718)">
+        <ellipse cx="356.202" cy="1571.12" rx="822.868" ry="1639.34" style="fill:none;stroke:rgb(115,58,68);stroke-width:34.54px;">
+            <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="rotate"
+                from="360 0 0"
+                to="0 0 0"
+                dur="360s"
+                repeatCount="indefinite"
+            />
+        </ellipse>
+    </g>
+</svg>
