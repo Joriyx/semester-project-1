@@ -66,6 +66,7 @@
 
 .card-content {
   margin: 15px 5px 40px 5px;
+  flex: 1;
 }
 
 .card-heading {
