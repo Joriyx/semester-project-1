@@ -69,6 +69,7 @@
 
 .card-heading {
   font-family: "Space Mono", sans-serif;
+  color: var(--color-card-header);
 }
 
 @media screen and (min-width: 800px) {
