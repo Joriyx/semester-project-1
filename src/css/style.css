@@ -108,10 +108,12 @@ footer h2 {
 
 li {
   margin: 20px 0;
+  word-wrap: break-word;
 }
 
 footer nav {
   min-width: 200px;
+  max-width: 210px;
 }
 
 a {
